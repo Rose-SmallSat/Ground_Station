@@ -1,0 +1,33 @@
+ITEM NO.	PART NUMBER	DESCRIPTION	QTY.
+1	StarShade-Housing3DPrint		1
+2	StarShade-12PetalLazerIteration1.4		1
+3	piCAM-Mount		1
+4	piCAM_bot_1.stp		1
+5	logo.stp		1
+6	piCAM_pcb_1.stp		1
+7	532610671 Tin.stp	53261-	1
+8	piCAM_1.stp		1
+9	camere_alodine.stp		1
+10	cam_nut.stp		1
+11	Camera end_1.stp		1
+12	Len.stp		1
+13	piCAM_top.stp		1
+14	M2x5mm_FF.stp	Unknown	4
+15	M2x5mm.stp	Unknown	4
+16	BN 15857 3108689 hexalobular socket head cap screw M2x3.stp	BN 15857-Hexalobular (6 Lobe) socket head cap screws with low head, fully threaded (ISO 14580), stainless steel A2	4
+17	BN 4851 3271457 hexalobular socket countersunk flat head screw M2x5.stp	BN 4851-Hexalobular (6 Lobe) socket countersunk flat head screws, fully threaded (ISO 14581), 08.8 / 8.8, zinc plated blue	4
+18	Ball Bearing F608ZZ		4
+19	Pulley		2
+20	B18.3.1M - 5 x 0.8 x 50 Hex SHCS -- 22NHX		1
+21	AM-M5-N		1
+22	StarShade-Lead Screw		2
+23	DIN 912 M4 x 10 --- 10N		4
+24	DIN 912 M5 x 10 --- 10N		2
+25	carriage		1
+26	motor mount		1
+27	Lagerschild_11.STEP		1
+28	Welle_11.STEP		1
+29	Kollektorschild_11.STEP		1
+30	Schraube_M2x25.STEP		4
+31	Stator_11.STEP		1
+32	12t pulleyWCP-0616.step		2
