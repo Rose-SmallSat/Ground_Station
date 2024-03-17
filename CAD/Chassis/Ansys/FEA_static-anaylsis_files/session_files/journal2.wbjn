@@ -1,0 +1,26 @@
+# encoding: utf-8
+# 2023 R1
+SetScriptVersion(Version="23.1.153")
+system1 = GetSystem(Name="SYS")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="5052-H32")
+matlProp1 = material1.GetProperty(Name="Elasticity")
+matlProp1.SetData(
+    Index=-1,
+    Variables=["Poisson's Ratio"],
+    Values=[["0.33"]])
+matlProp1.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="psi")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["7.8886090522101181E-31 [psi]"]])
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["10200000 [psi]"]])
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
