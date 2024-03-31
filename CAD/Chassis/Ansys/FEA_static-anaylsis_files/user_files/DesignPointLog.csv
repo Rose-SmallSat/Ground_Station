@@ -1,0 +1,12 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: FEA_static-anaylsis
+# Creation date: 03/25/2024 09:38:42
+# 
+# 03/25/2024 09:38:42
+# The parameters defined in the project are:
+# ,P1 - Force 2 Y Component [lbf],P2 - Force 2 Z Component [lbf],P3 - Force Z Component [lbf],P4 - Force X Component [lbf],P5 - Force 3 X Component [lbf],P6 - Force 3 Y Component [lbf]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6
+DP 0,0,0,0,0,0,0

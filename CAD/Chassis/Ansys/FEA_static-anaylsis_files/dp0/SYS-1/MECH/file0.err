@@ -1,0 +1,32 @@
+/COM,ANSYS RELEASE 2023 R1           BUILD 23.1      UP20221128       10:20:01
+
+ *** WARNING ***                         CP =       3.375   TIME= 10:20:02
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       3.938   TIME= 10:20:02
+ Material number 235 (used by element 180136) should normally have at    
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =       3.938   TIME= 10:20:02
+ No constraints have been defined using the D command.                   
+
+ *** WARNING ***                         CP =      16.016   TIME= 10:20:13
+ There is at least 1 small equation solver pivot term (e.g., at the UY   
+ degree of freedom of node 88082) which may indicate a numerically       
+ unstable model.  Please check your results carefully.                   
+
+ *** ERROR ***                           CP =      16.312   TIME= 10:20:13
+ The value of UY at node 24648 is 4202960.51.  It is greater than the    
+ current limit of 1000000 (which can be reset on the NCNV command).      
+ This generally indicates rigid body motion as a result of an            
+ unconstrained model.  Verify that your model is properly constrained.   
+
+ *** ERROR ***                           CP =      16.312   TIME= 10:20:13
+ *** MESSAGE CONTINUATION ---- DIAGNOSTIC INFORMATION ***                
+ If one or more parts of the model are held together only by contact     
+ verify that the contact surfaces are closed.  Also make sure that       
+ there are constraints (or friction) in the sliding direction even if    
+ no load is applied in that direction.  You can use the CNCHECK command  
+ to check the initial contact status in the SOLUTION module.             
