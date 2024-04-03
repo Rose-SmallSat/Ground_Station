@@ -1,32 +1,30 @@
-/COM,ANSYS RELEASE 2023 R1           BUILD 23.1      UP20221128       10:20:01
+/COM,ANSYS RELEASE 2023 R1           BUILD 23.1      UP20221128       18:14:56
 
- *** WARNING ***                         CP =       3.375   TIME= 10:20:02
+ *** WARNING ***                         CP =       4.266   TIME= 18:14:57
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** WARNING ***                         CP =       3.938   TIME= 10:20:02
+ *** WARNING ***                         CP =       4.719   TIME= 18:14:57
  Material number 235 (used by element 180136) should normally have at    
  least one MP or one TB type command associated with it.  Output of      
  energy by material may not be available.                                
 
- *** WARNING ***                         CP =       3.938   TIME= 10:20:02
+ *** WARNING ***                         CP =       4.719   TIME= 18:14:57
  No constraints have been defined using the D command.                   
 
- *** WARNING ***                         CP =      16.016   TIME= 10:20:13
- There is at least 1 small equation solver pivot term (e.g., at the UY   
- degree of freedom of node 88082) which may indicate a numerically       
- unstable model.  Please check your results carefully.                   
+ *** WARNING ***                         CP =       6.500   TIME= 18:14:59
+ Maximum contact stiffness 3.771970595E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
 
- *** ERROR ***                           CP =      16.312   TIME= 10:20:13
- The value of UY at node 24648 is 4202960.51.  It is greater than the    
- current limit of 1000000 (which can be reset on the NCNV command).      
- This generally indicates rigid body motion as a result of an            
- unconstrained model.  Verify that your model is properly constrained.   
+ *** WARNING ***                         CP =      12.422   TIME= 18:15:04
+ The Distributed Sparse Matrix Solver is currently running in the        
+ out-of-core memory mode.  This memory mode may provide significantly    
+ worse performance compared to the in-core memory mode, depending on     
+ the amount of available system memory and I/O speed.  Please monitor    
+ the solver performance to ensure that the large amount of I/O to the    
+ solver files does not create a bottleneck for performance.              
 
- *** ERROR ***                           CP =      16.312   TIME= 10:20:13
- *** MESSAGE CONTINUATION ---- DIAGNOSTIC INFORMATION ***                
- If one or more parts of the model are held together only by contact     
- verify that the contact surfaces are closed.  Also make sure that       
- there are constraints (or friction) in the sliding direction even if    
- no load is applied in that direction.  You can use the CNCHECK command  
- to check the initial contact status in the SOLUTION module.             
+ *** ERROR ***                           CP =      15.812   TIME= 18:15:08
+ There is at least 1 small equation solver pivot term (e.g., at the UX   
+ degree of freedom of node 88190).  Please check for an insufficiently   
+ constrained model.                                                      

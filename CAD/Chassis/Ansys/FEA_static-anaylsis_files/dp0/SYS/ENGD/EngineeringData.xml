@@ -302,7 +302,7 @@
               </Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr13">
+          <PropertyData property="pr12">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <ParameterValue parameter="pa24" format="float">
@@ -320,7 +320,7 @@
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr12">
+          <PropertyData property="pr13">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -332,7 +332,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa25" format="float">
               <Data>200000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -377,7 +377,7 @@
           <PropertyData property="pr14">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa30" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -426,7 +426,7 @@
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr12">
+          <PropertyData property="pr13">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Derive from">Young's Modulus and Poisson's Ratio</Qualifier>
@@ -438,7 +438,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa25" format="float">
+            <ParameterValue parameter="pa30" format="float">
               <Data>10200000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
@@ -573,13 +573,6 @@
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
-        <ParameterDetails id="pa29">
-          <Name>Young's Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa30">
-          <Name>Relative Permeability</Name>
-        </ParameterDetails>
         <ParameterDetails id="pa25">
           <Name>Young's Modulus</Name>
           <Units name="Stress" />
@@ -593,6 +586,13 @@
         </ParameterDetails>
         <ParameterDetails id="pa28">
           <Name>Shear Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa29">
+          <Name>Relative Permeability</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa30">
+          <Name>Young's Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
         <PropertyDetails id="pr0">
@@ -632,10 +632,10 @@
           <Name>Strain-Life Parameters</Name>
         </PropertyDetails>
         <PropertyDetails id="pr12">
-          <Name>Elasticity</Name>
+          <Name>Resistivity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr13">
-          <Name>Resistivity</Name>
+          <Name>Elasticity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr14">
           <Name>Relative Permeability</Name>
