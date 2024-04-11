@@ -1,22 +1,22 @@
-/COM,ANSYS RELEASE 2023 R1           BUILD 23.1      UP20221128       18:14:56
+/COM,ANSYS RELEASE 2023 R1           BUILD 23.1      UP20221128       06:01:53
 
- *** WARNING ***                         CP =       4.266   TIME= 18:14:57
+ *** WARNING ***                         CP =       3.391   TIME= 06:01:55
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** WARNING ***                         CP =       4.719   TIME= 18:14:57
+ *** WARNING ***                         CP =       4.047   TIME= 06:01:55
  Material number 235 (used by element 180136) should normally have at    
  least one MP or one TB type command associated with it.  Output of      
  energy by material may not be available.                                
 
- *** WARNING ***                         CP =       4.719   TIME= 18:14:57
+ *** WARNING ***                         CP =       4.047   TIME= 06:01:55
  No constraints have been defined using the D command.                   
 
- *** WARNING ***                         CP =       6.500   TIME= 18:14:59
+ *** WARNING ***                         CP =       5.672   TIME= 06:01:56
  Maximum contact stiffness 3.771970595E+16 is too big which can cause an 
  accuracy problem, you may scale the force units in the model.           
 
- *** WARNING ***                         CP =      12.422   TIME= 18:15:04
+ *** WARNING ***                         CP =      10.797   TIME= 06:02:00
  The Distributed Sparse Matrix Solver is currently running in the        
  out-of-core memory mode.  This memory mode may provide significantly    
  worse performance compared to the in-core memory mode, depending on     
@@ -24,7 +24,8 @@
  the solver performance to ensure that the large amount of I/O to the    
  solver files does not create a bottleneck for performance.              
 
- *** ERROR ***                           CP =      15.812   TIME= 18:15:08
- There is at least 1 small equation solver pivot term (e.g., at the UX   
- degree of freedom of node 88190).  Please check for an insufficiently   
- constrained model.                                                      
+ *** ERROR ***                           CP =      14.000   TIME= 06:02:04
+ A large negative pivot value ( -5.9279036E-03 ) has been encountered in 
+ the global assembled matrix at the UY degree of freedom of node 14180.  
+  This may be caused by a bad temperature-dependent material property    
+ used in the model.                                                      
